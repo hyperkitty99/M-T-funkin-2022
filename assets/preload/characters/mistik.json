@@ -1,0 +1,175 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				32,
+				390
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				287,
+				297
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				2,
+				283
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				84,
+				439
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				42,
+				101
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				331
+			],
+			"anim": "missright",
+			"fps": 24,
+			"name": "missright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				282,
+				330
+			],
+			"anim": "missleft",
+			"fps": 24,
+			"name": "missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				77,
+				453
+			],
+			"anim": "missup",
+			"fps": 24,
+			"name": "missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				139
+			],
+			"anim": "missdown",
+			"fps": 24,
+			"name": "missdown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				27,
+				394
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hey"
+		},
+		{
+			"offsets": [
+				24,
+				393
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "talk",
+			"indices": [],
+			"name": "mt talking0"
+		},
+		{
+			"offsets": [
+				31,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "talk2",
+			"indices": [],
+			"name": "mt talking2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				200
+			],
+			"anim": "talk2.1",
+			"fps": 24,
+			"name": "mt talking2",
+			"indices": [
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistik",
+	"position": [
+		10,
+		375
+	],
+	"healthicon": "mistik",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		81,
+		180
+	],
+	"camera_position": [
+		-80,
+		-1130
+	],
+	"sing_duration": 6,
+	"scale": 0.8
+}

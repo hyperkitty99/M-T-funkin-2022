@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				37,
+				420
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "mistik up"
+		},
+		{
+			"offsets": [
+				21,
+				387
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "mistik down"
+		},
+		{
+			"offsets": [
+				9,
+				401
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "mistik right"
+		},
+		{
+			"offsets": [
+				66,
+				399
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "mistik left"
+		},
+		{
+			"offsets": [
+				33,
+				402
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "mistik idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistik_event_sprites",
+	"position": [
+		60,
+		454
+	],
+	"healthicon": "mistik",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		61,
+		180
+	],
+	"camera_position": [
+		70,
+		-350
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

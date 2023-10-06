@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Boppers_Assets.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IDLE0000" x="5" y="5" width="2922" height="1786" frameX="0" frameY="-15" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0001" x="5" y="5" width="2922" height="1786" frameX="0" frameY="-15" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0002" x="2932" y="5" width="2914" height="1786" frameX="-4" frameY="-10" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0003" x="2932" y="5" width="2914" height="1786" frameX="-4" frameY="-10" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0004" x="5" y="1796" width="2748" height="1620" frameX="-91" frameY="0" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0005" x="5" y="1796" width="2748" height="1620" frameX="-91" frameY="0" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0006" x="2758" y="1796" width="2678" height="1586" frameX="-144" frameY="-4" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0007" x="2758" y="1796" width="2678" height="1586" frameX="-144" frameY="-4" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0008" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0009" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0010" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0011" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0012" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+	<SubTexture name="IDLE0013" x="5441" y="1796" width="2624" height="1519" frameX="-157" frameY="-3" frameWidth="2922" frameHeight="1801"/>
+</TextureAtlas>

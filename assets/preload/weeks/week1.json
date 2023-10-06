@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"inconvenience",
+			"mistik",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"high voltage",
+			"mistik",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"paralysis",
+			"mistik",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Sudden Meeting",
+	"weekName": "Mistik",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
