@@ -6,7 +6,7 @@
 <h1 align="center">
 M/T Funkin'
 </h1>
-If you just want to play the mod, download it [here](https://gamebanana.com/).
+M/T Funkin' is not assosiated with The Funkin' Crew.
 
 # Building From Source
 
@@ -18,15 +18,13 @@ For language support, debugging, linting, and documentation, install the [Vs Hax
 
 For Lime / OpenFL project support, install the [Lime Extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension).
 
-`windows` For compiling the game on windows, install [Visual Studio 19](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products) and ONLY these components:
+For compiling the game on Windows, install [Visual Studio 19](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products) and ONLY these components
 ```
 MSVC v142 - VS 2019 C++ x64/x86 build tools
 Windows SDK (10.0.17763.0)
 ```
 
-# Credits:
-
-M/T Funkin' is not assosiated with The Funkin' Crew.
+# Credits
 
 ## M/T Funkin' Team
 * Sway - Director, Artist, Writer
