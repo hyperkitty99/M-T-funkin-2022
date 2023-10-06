@@ -3,8 +3,9 @@
 <!--This is the markdown readme. View the pretty format on the webpage
 -->
 ![logo](./art/logo.png)
-___
+<h1 align="center">
 # M/T Funkin'
+</h1>
 If you just want to play the mod, download it [here](https://gamebanana.com).
 
 # Building From Source
