@@ -22,11 +22,11 @@ class CreditsStateAlt extends MusicBeatState {
 
     var idiots:Array<{asset:String, name:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3
 		{asset: 'Sway', name: 'Sway', role: 'Director, Artist, Writer', quote: 'Imagine being Iccer and saying the same unfunny joke forever', link: 'https://twitter.com/IsMistik'}, 
-		{asset: 'NickNGC', name: 'NickNGC', role: 'Coder', quote: 'why did you make this credits state so hardcoded AAAAAAAAAAAAAAAAA', link: 'https://www.youtube.com/@NickNGC'},
+		{asset: 'NickNGC', name: 'NickNGC', role: 'Main Coder', quote: 'why did you make this credits state so hardcoded AAAAAAAAAAAAAAAAA', link: 'https://www.youtube.com/@NickNGC'},
 		{asset: 'Just_Jack', name: 'Just Jack', role: 'Coder', quote: 'I believe you man', link: 'https://twitter.com/Just_Jack6'}, 
-		{asset: 'Tony_the_rapping_cat', name: 'TonyTheRappingCat', role: 'Voice Actor', quote: 'Rap Rap Cat', link: 'https://twitter.com/TrueTonytheCat'}, 
 		{asset: 'RoFoS', name: 'RoFoS', role: 'Musician', quote: 'My icon best hahahaha'}, 
 		{asset: 'Ziffer', name: 'Ziffer', role: 'Musician', quote: 'Never play fnf at 3 am'}, 
+		{asset: 'Tony_the_rapping_cat', name: 'TonyTheRappingCat', role: 'Voice Actor', quote: 'Rap Rap Cat', link: 'https://twitter.com/TrueTonytheCat'}, 
 		{asset: 'Ralf', name: 'Ralf', role: 'Charter', quote: 'Love is the main thing'}, 
 		{asset: 'FraGer', name: 'FraGer', role: 'Artist', quote: 'big boner down the lane'},
 		{asset: 'Comix_Guy', name: 'Comix Guy', role: 'Artist and Animator', quote: 'big boner down the lane'},
