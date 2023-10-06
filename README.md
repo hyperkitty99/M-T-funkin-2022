@@ -7,8 +7,6 @@
 M/T Funkin'
 </h1>
 
-# Building From Source
-
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/) (4.3.1+) in order to compile.
 
 Install [Visual Studio Code](https://code.visualstudio.com/download).
