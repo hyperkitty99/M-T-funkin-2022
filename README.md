@@ -4,7 +4,7 @@
 -->
 ![logo](./art/logo.png)
 <h1 align="center">
-# M/T Funkin'
+M/T Funkin'
 </h1>
 If you just want to play the mod, download it [here](https://gamebanana.com).
 
