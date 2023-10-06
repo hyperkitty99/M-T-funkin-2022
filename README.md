@@ -6,6 +6,7 @@
 <h1 align="center">
 M/T Funkin'
 </h1>
+M/T Funkin' is not assosiated with The Funkin' Crew.
 
 # Building From Source
 
@@ -22,9 +23,9 @@ For compiling the game on Windows, install [Visual Studio 19](https://visualstud
 MSVC v142 - VS 2019 C++ x64/x86 build tools
 Windows SDK (10.0.17763.0)
 ```
-</h1>
-Credits
-</h1>
+
+# Credits
+
 ## M/T Funkin' Team
 * Sway - Director, Artist, Writer
 * Nick - Coder
