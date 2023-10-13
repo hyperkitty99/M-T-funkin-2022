@@ -521,8 +521,8 @@ class PlayState extends MusicBeatState
 				townFront.updateHitbox();
 				add(townFront);
 
-				balcony = new BGSprite('newBg/pGround', -828, -260);
-				balcony.setGraphicSize(3100);
+				balcony = new BGSprite('newBg/pGround', -500, -60);
+				balcony.setGraphicSize(2500);
 				balcony.updateHitbox();
 				add(balcony);
 
