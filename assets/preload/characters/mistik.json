@@ -1,136 +1,125 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				32,
+				33,
 				390
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				287,
 				297
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				2,
 				283
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				84,
 				439
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				42,
 				101
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				12,
 				331
 			],
-			"anim": "missright",
+			"loop": false,
 			"fps": 24,
-			"name": "missright",
-			"indices": []
+			"anim": "missright",
+			"indices": [],
+			"name": "missright"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				282,
 				330
 			],
-			"anim": "missleft",
+			"loop": false,
 			"fps": 24,
-			"name": "missleft",
-			"indices": []
+			"anim": "missleft",
+			"indices": [],
+			"name": "missleft"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				77,
 				453
 			],
-			"anim": "missup",
+			"loop": false,
 			"fps": 24,
-			"name": "missup",
-			"indices": []
+			"anim": "missup",
+			"indices": [],
+			"name": "missup"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				49,
 				139
 			],
-			"anim": "missdown",
+			"loop": false,
 			"fps": 24,
-			"name": "missdown",
-			"indices": []
+			"anim": "missdown",
+			"indices": [],
+			"name": "missdown"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				27,
 				394
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "hey",
-			"indices": [],
-			"name": "hey"
+			"fps": 24,
+			"name": "hey",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				24,
 				393
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "talk",
-			"indices": [],
-			"name": "mt talking0"
-		},
-		{
-			"offsets": [
-				31,
-				200
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "talk2",
-			"indices": [],
-			"name": "mt talking2"
+			"name": "mt talking0",
+			"indices": []
 		},
 		{
 			"loop": false,
@@ -138,9 +127,19 @@
 				31,
 				200
 			],
-			"anim": "talk2.1",
+			"anim": "talk2",
 			"fps": 24,
 			"name": "mt talking2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				31,
+				200
+			],
+			"loop": true,
+			"fps": 1,
+			"anim": "talk2.1",
 			"indices": [
 				29,
 				29,
@@ -149,8 +148,57 @@
 				29,
 				29,
 				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
+				29,
 				29
-			]
+			],
+			"name": "mt talking2"
 		}
 	],
 	"no_antialiasing": false,
@@ -168,7 +216,7 @@
 	],
 	"camera_position": [
 		-80,
-		-1130
+		-150
 	],
 	"sing_duration": 6,
 	"scale": 0.8

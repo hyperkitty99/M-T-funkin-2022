@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sway.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eye open0000" x="1165" y="1720" width="289" height="556" frameX="-6" frameY="-13" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0001" x="1165" y="1720" width="289" height="556" frameX="-6" frameY="-13" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0002" x="1165" y="1720" width="289" height="556" frameX="-6" frameY="-13" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0003" x="1165" y="2281" width="283" height="564" frameX="-8" frameY="-8" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0004" x="1165" y="2281" width="283" height="564" frameX="-8" frameY="-8" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0005" x="1165" y="2281" width="283" height="564" frameX="-8" frameY="-8" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0006" x="583" y="1151" width="286" height="563" frameX="-9" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0007" x="583" y="1151" width="286" height="563" frameX="-9" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0008" x="583" y="1151" width="286" height="563" frameX="-9" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0009" x="1459" y="1720" width="285" height="563" frameX="-8" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0010" x="1459" y="1720" width="285" height="563" frameX="-8" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0011" x="1459" y="1720" width="285" height="563" frameX="-8" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0012" x="0" y="1721" width="285" height="563" frameX="-8" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0013" x="0" y="1721" width="285" height="563" frameX="-8" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0014" x="0" y="1721" width="285" height="563" frameX="-8" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0015" x="583" y="1719" width="286" height="563" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0016" x="583" y="1719" width="286" height="563" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0017" x="583" y="1719" width="286" height="563" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0018" x="292" y="1720" width="286" height="563" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0019" x="292" y="1720" width="286" height="563" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0020" x="292" y="1720" width="286" height="563" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0021" x="874" y="1720" width="286" height="563" frameX="-7" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0022" x="874" y="1720" width="286" height="563" frameX="-7" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0023" x="874" y="1720" width="286" height="563" frameX="-7" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0024" x="292" y="1151" width="286" height="564" frameX="-5" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0025" x="292" y="1151" width="286" height="564" frameX="-5" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0026" x="292" y="1151" width="286" height="564" frameX="-5" frameY="-9" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0027" x="888" y="1150" width="287" height="565" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0028" x="888" y="1150" width="287" height="565" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0029" x="888" y="1150" width="287" height="565" frameX="-7" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0030" x="0" y="580" width="288" height="565" frameX="-9" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0031" x="0" y="580" width="288" height="565" frameX="-9" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0032" x="0" y="580" width="288" height="565" frameX="-9" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0033" x="1180" y="1150" width="287" height="565" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0034" x="1180" y="1150" width="287" height="565" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0035" x="1180" y="1150" width="287" height="565" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0036" x="1487" y="1149" width="287" height="566" frameX="-7" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0037" x="1487" y="1149" width="287" height="566" frameX="-7" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0038" x="1487" y="1149" width="287" height="566" frameX="-7" frameY="-7" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0039" x="0" y="1150" width="287" height="566" frameX="-8" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0040" x="0" y="1150" width="287" height="566" frameX="-8" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0041" x="0" y="1150" width="287" height="566" frameX="-8" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0042" x="595" y="579" width="288" height="567" frameX="-6" frameY="-5" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0043" x="595" y="579" width="288" height="567" frameX="-6" frameY="-5" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0044" x="595" y="579" width="288" height="567" frameX="-6" frameY="-5" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0045" x="300" y="579" width="290" height="567" frameX="0" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0046" x="300" y="579" width="290" height="567" frameX="0" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0047" x="300" y="579" width="290" height="567" frameX="0" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0048" x="1192" y="577" width="290" height="568" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0049" x="1192" y="577" width="290" height="568" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0050" x="1192" y="577" width="290" height="568" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0051" x="896" y="577" width="291" height="568" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0052" x="896" y="577" width="291" height="568" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0053" x="896" y="577" width="291" height="568" frameX="-6" frameY="-6" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0054" x="1489" y="575" width="291" height="569" frameX="-5" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0055" x="1489" y="575" width="291" height="569" frameX="-5" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0056" x="1489" y="575" width="291" height="569" frameX="-5" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0057" x="1489" y="0" width="291" height="570" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0058" x="1489" y="0" width="291" height="570" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0059" x="1489" y="0" width="291" height="570" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0060" x="1193" y="0" width="291" height="572" frameX="-5" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0061" x="1193" y="0" width="291" height="572" frameX="-5" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0062" x="1193" y="0" width="291" height="572" frameX="-5" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0063" x="896" y="0" width="292" height="572" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0064" x="896" y="0" width="292" height="572" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0065" x="896" y="0" width="292" height="572" frameX="-6" frameY="-4" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0066" x="599" y="0" width="292" height="574" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0067" x="599" y="0" width="292" height="574" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0068" x="599" y="0" width="292" height="574" frameX="-7" frameY="0" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0069" x="300" y="0" width="294" height="574" frameX="0" frameY="-1" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0070" x="300" y="0" width="294" height="574" frameX="0" frameY="-1" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0071" x="300" y="0" width="294" height="574" frameX="0" frameY="-1" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0072" x="0" y="0" width="295" height="575" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0073" x="0" y="0" width="295" height="575" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="eye open0074" x="0" y="0" width="295" height="575" frameX="-3" frameY="-2" frameWidth="299" frameHeight="577"/>
+	<SubTexture name="idle0000" x="583" y="2287" width="283" height="541" frameX="0" frameY="-5" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0001" x="583" y="2287" width="283" height="541" frameX="0" frameY="-5" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0002" x="290" y="2288" width="280" height="545" frameX="-1" frameY="-1" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0003" x="290" y="2288" width="280" height="545" frameX="-1" frameY="-1" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0004" x="871" y="2288" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0005" x="871" y="2288" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0006" x="1453" y="2288" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0007" x="1453" y="2288" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0008" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0009" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0010" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0011" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0012" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+	<SubTexture name="idle0013" x="0" y="2289" width="278" height="546" frameX="-2" frameY="0" frameWidth="283" frameHeight="546"/>
+</TextureAtlas>

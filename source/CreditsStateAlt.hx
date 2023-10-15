@@ -20,7 +20,7 @@ class CreditsStateAlt extends MusicBeatState {
 
 	var link:String = "https://twitter.com/IsMistik";
 
-    var idiots:Array<{asset:String, name:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3
+    var idiots:Array<{asset:String, name:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3 //yeah man :3
 		{asset: 'Sway', name: 'Sway', role: 'Director, Artist, Writer', quote: 'Imagine being Iccer and saying the same unfunny joke forever', link: 'https://twitter.com/IsMistik'}, 
 		{asset: 'NickNGC', name: 'NickNGC', role: 'Main Coder', quote: 'why did you make this credits state so hardcoded AAAAAAAAAAAAAAAAA', link: 'https://www.youtube.com/@NickNGC'},
 		{asset: 'Just_Jack', name: 'Just Jack', role: 'Coder', quote: 'I believe you man', link: 'https://twitter.com/Just_Jack6'}, 
@@ -155,13 +155,12 @@ class CreditsStateAlt extends MusicBeatState {
 					});
 				}
 				changeSelection(1);
-			} 
-			else if (controls.UI_LEFT_P && canMove) {
+			} else if (controls.UI_LEFT_P && canMove) {
 				if (curSelected == 0) {
 					assetGroup.forEach(function(spr:FlxSprite) {
-							FlxTween.tween(spr,{x: spr.x - 230 * 9},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
-								canMove = true;
-							}});
+						FlxTween.tween(spr,{x: spr.x - 230 * 9},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
+							canMove = true;
+						}});
 						spr.updateHitbox();
 					});
 				} else {

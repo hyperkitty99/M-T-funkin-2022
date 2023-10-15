@@ -1,78 +1,89 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				37,
-				420
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "mistik up"
-		},
-		{
 			"offsets": [
-				21,
-				387
+				477,
+				639
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "mistik down"
-		},
-		{
-			"offsets": [
-				9,
-				401
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "mistik right"
-		},
-		{
-			"offsets": [
-				66,
-				399
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "mistik left"
-		},
-		{
-			"offsets": [
-				33,
-				402
-			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "mistik idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				429,
+				602
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				361,
+				630
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				442,
+				645
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				489,
+				653
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				311,
+				537
+			],
+			"anim": "spin",
+			"fps": 24,
+			"name": "spin",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/mistik_event_sprites",
+	"image": "characters/mistik guitar",
 	"position": [
-		60,
-		454
+		10,
+		375
 	],
 	"healthicon": "mistik",
 	"flip_x": false,
 	"healthbar_colors": [
-		40,
-		61,
+		51,
+		81,
 		180
 	],
 	"camera_position": [
-		70,
-		-350
+		-395,
+		-475
 	],
-	"sing_duration": 4,
+	"sing_duration": 6,
 	"scale": 0.8
 }

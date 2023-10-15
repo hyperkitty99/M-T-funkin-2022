@@ -2,57 +2,27 @@
 	"song": {
 		"events": [
 			[
-				19783.7837837838,
-				[
-					[
-						"Mid-Song-Countdown",
-						"three",
-						""
-					]
-				]
-			],
-			[
-				20108.1081081081,
-				[
-					[
-						"Mid-Song-Countdown",
-						"two",
-						""
-					]
-				]
-			],
-			[
-				20432.4324324324,
-				[
-					[
-						"Mid-Song-Countdown",
-						"go",
-						""
-					]
-				]
-			],
-			[
 				83027.027027027,
 				[
 					[
-						"Flashing Camera",
-						"",
-						""
-					],
-					[
-						"Change Character",
-						"1",
-						"Mistik-Guitar"
+						"Play Animation",
+						"hey",
+						"dad"
 					]
 				]
 			],
 			[
-				145297.297297297,
+				83837.8378378378,
 				[
 					[
-						"Flashing Camera",
-						"",
-						""
+						"Change Character",
+						"dad",
+						"mistik-guitar"
+					],
+					[
+						"Play Animation",
+						"spin",
+						"dad"
 					]
 				]
 			]
