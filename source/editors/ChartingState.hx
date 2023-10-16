@@ -65,7 +65,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'372',
 		'GF Sing',
-		'No Animation'
+		'No Animation',
+		'Miss Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -79,7 +80,7 @@ class ChartingState extends MusicBeatState
 		['Bad Apple S', "Value 1: 1 ON, leave blank to turn off"],
 		['Sway', "Value 1: 1 ON, leave blank to turn off. Value 2: 1 Eye, leave blank to turn off"],
 		['Boppers', "Value 1: 1 ON, leave blank to turn off"],
-		['Boppers Paralysis', "Value 1: 1 ON, leave blank to turn off"],
+		['Trail Toggle', "Value 1: 1 ON, leave blank to turn off"],
 		['Set Cam Zoom', "Value 1: Cam zoom. Value 2: if blank, it will smoothly zoom regularly, otherwise it will do an instant zoom"],
 		['Set Cam Speed', "Value 1: Cam speed. Value 2: Duration. if blank, the duration will be default"],
 		['Cam Boom Speed', "Value 1: Speed. Value 2: Intensity"],

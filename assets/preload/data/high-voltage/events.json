@@ -3322,52 +3322,12 @@
 				]
 			],
 			[
-				105039.47368421,
-				[
-					[
-						"Play Animation",
-						"missdown",
-						"Dad"
-					]
-				]
-			],
-			[
 				105513.157894737,
 				[
 					[
 						"Set Cam Zoom",
 						"0.9",
 						"0.1"
-					]
-				]
-			],
-			[
-				105671.052631579,
-				[
-					[
-						"Play Animation",
-						"missdown",
-						"Dad"
-					]
-				]
-			],
-			[
-				105750,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
-					]
-				]
-			],
-			[
-				105828.947368421,
-				[
-					[
-						"Play Animation",
-						"missright",
-						"Dad"
 					]
 				]
 			],
@@ -3398,16 +3358,6 @@
 						"Add Camera Zoom",
 						"0.05",
 						""
-					]
-				]
-			],
-			[
-				107565.789473684,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
 					]
 				]
 			],
@@ -3448,16 +3398,6 @@
 						"Add Camera Zoom",
 						"0.05",
 						""
-					]
-				]
-			],
-			[
-				108828.947368421,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
 					]
 				]
 			],
@@ -3712,16 +3652,6 @@
 				]
 			],
 			[
-				115144.736842105,
-				[
-					[
-						"Play Animation",
-						"missdown",
-						"Dad"
-					]
-				]
-			],
-			[
 				115302.631578947,
 				[
 					[
@@ -3752,36 +3682,6 @@
 				]
 			],
 			[
-				115776.315789474,
-				[
-					[
-						"Play Animation",
-						"missdown",
-						"Dad"
-					]
-				]
-			],
-			[
-				115855.263157895,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
-					]
-				]
-			],
-			[
-				115934.210526316,
-				[
-					[
-						"Play Animation",
-						"missright",
-						"Dad"
-					]
-				]
-			],
-			[
 				116092.105263158,
 				[
 					[
@@ -3808,16 +3708,6 @@
 						"Add Camera Zoom",
 						"0.05",
 						""
-					]
-				]
-			],
-			[
-				117671.052631579,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
 					]
 				]
 			],
@@ -3858,16 +3748,6 @@
 						"Add Camera Zoom",
 						"0.05",
 						""
-					]
-				]
-			],
-			[
-				118934.210526316,
-				[
-					[
-						"Play Animation",
-						"missleft",
-						"Dad"
 					]
 				]
 			],
