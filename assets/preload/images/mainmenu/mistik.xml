@@ -2,36 +2,36 @@
 <TextureAtlas imagePath="mistik.png">
 	<!-- Created with Adobe Animate version 22.0.0.93 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="mistik0000" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0001" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0002" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0003" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0004" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0005" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0006" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0007" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0008" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0009" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0010" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0011" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0012" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0013" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0014" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0015" x="0" y="880" width="942" height="839" frameX="-9" frameY="-39" frameWidth="951" frameHeight="880"/>
-	<SubTexture name="mistik0016" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0017" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0018" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0019" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0020" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0021" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0022" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0023" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0024" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0025" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0026" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0027" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0028" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0029" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0030" x="0" y="0" width="951" height="880"/>
-	<SubTexture name="mistik0031" x="0" y="0" width="951" height="880"/>
+	<SubTexture name="mistik0000" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0001" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0002" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0003" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0004" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0005" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0006" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0007" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0008" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0009" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0010" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0011" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0012" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0013" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0014" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0015" x="0" y="587" width="629" height="559" frameX="-6" frameY="-26" frameWidth="635" frameHeight="587"/>
+	<SubTexture name="mistik0016" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0017" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0018" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0019" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0020" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0021" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0022" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0023" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0024" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0025" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0026" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0027" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0028" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0029" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0030" x="0" y="0" width="635" height="587"/>
+	<SubTexture name="mistik0031" x="0" y="0" width="635" height="587"/>
 </TextureAtlas>

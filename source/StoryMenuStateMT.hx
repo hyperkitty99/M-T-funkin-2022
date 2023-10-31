@@ -29,7 +29,7 @@ class StoryMenuStateMT extends MusicBeatState {
 		PlayState.isStoryMode = true;
 
 		#if desktop
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Selecting a week", null);
 		#end
 
 		var bg2:FlxSprite = new FlxSprite(1, 13).loadGraphic(Paths.image('storyMenuMt/cityBg'));

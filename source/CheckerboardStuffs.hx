@@ -14,21 +14,21 @@ class CheckerboardStuffs extends FlxTypedSpriteGroup<FlxSprite> {
     public function new(x:Int, y:Int) {
         super(x, y);
 
-        createRetards();
+        createCubes();
     }
 
-    function createRetards() {
-        var numRetardsX:Int = Math.ceil(1920 / 128);
-        var numRetardsY:Int = Math.ceil(1080 / 128);
+    function createCubes() {
+        var numCubesX:Int = Math.ceil(1920 / 128);
+        var numCubesY:Int = Math.ceil(1080 / 128);
 
-        for (yIndex in 0...numRetardsY) {
-            for (xIndex in 0...numRetardsX) {
-       			var retard:FlxSprite = new FlxSprite();
-                retard.loadGraphic(Paths.image('storyMenuMt/a'));
-        		retard.scrollFactor.set();
-                retard.x = 128 * xIndex;
-                retard.y = 128 * yIndex;
-        		add(retard);
+        for (yIndex in 0...numCubesY) {
+            for (xIndex in 0...numCubesX) {
+       			var cube:FlxSprite = new FlxSprite();
+                cube.loadGraphic(Paths.image('storyMenuMt/a'));
+                cube.scrollFactor.set();
+                cube.x = 128 * xIndex;
+                cube.y = 128 * yIndex;
+        		add(cube);
             }
         }
     }

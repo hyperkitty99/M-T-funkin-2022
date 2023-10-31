@@ -2,36 +2,36 @@
 <TextureAtlas imagePath="menu_badges.png">
 	<!-- Created with Adobe Animate version 22.0.0.93 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="badges0000" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0001" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0002" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0003" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0004" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0005" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0006" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0007" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0008" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0009" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0010" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0011" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0012" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0013" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0014" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0015" x="0" y="109" width="340" height="107" frameX="-2" frameY="-2" frameWidth="358" frameHeight="109"/>
-	<SubTexture name="badges0016" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0017" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0018" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0019" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0020" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0021" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0022" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0023" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0024" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0025" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0026" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0027" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0028" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0029" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0030" x="0" y="0" width="358" height="109"/>
-	<SubTexture name="badges0031" x="0" y="0" width="358" height="109"/>
+	<SubTexture name="badges0000" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0001" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0002" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0003" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0004" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0005" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0006" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0007" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0008" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0009" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0010" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0011" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0012" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0013" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0014" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0015" x="0" y="73" width="226" height="71" frameX="-2" frameY="-2" frameWidth="239" frameHeight="73"/>
+	<SubTexture name="badges0016" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0017" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0018" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0019" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0020" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0021" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0022" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0023" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0024" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0025" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0026" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0027" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0028" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0029" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0030" x="0" y="0" width="239" height="73"/>
+	<SubTexture name="badges0031" x="0" y="0" width="239" height="73"/>
 </TextureAtlas>

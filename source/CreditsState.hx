@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Credits Menu", null);
 		#end
 
 		persistentUpdate = true;
@@ -113,7 +113,7 @@ class CreditsState extends MusicBeatState
 		{
 			var isSelectable:Bool = !unselectableCheck(i);
 			var optionText:Alphabet = new Alphabet(0, 70 * i, creditsStuff[i][0], !isSelectable, false);
-			optionText.isMenuItem = true;
+			optionText.isMenuItemX = true;
 			optionText.screenCenter(X);
 			optionText.yAdd -= 70;
 			if(isSelectable) {

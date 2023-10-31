@@ -2,36 +2,36 @@
 <TextureAtlas imagePath="mainmenu.png">
 	<!-- Created with Adobe Animate version 22.0.0.93 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="main menu0000" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0001" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0002" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0003" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0004" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0005" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0006" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0007" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0008" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0009" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0010" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0011" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0012" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0013" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0014" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0015" x="0" y="108" width="554" height="101" frameX="-4" frameY="0" frameWidth="564" frameHeight="108"/>
-	<SubTexture name="main menu0016" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0017" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0018" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0019" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0020" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0021" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0022" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0023" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0024" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0025" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0026" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0027" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0028" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0029" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0030" x="0" y="0" width="564" height="108"/>
-	<SubTexture name="main menu0031" x="0" y="0" width="564" height="108"/>
+	<SubTexture name="mainmenu0000" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0001" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0002" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0003" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0004" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0005" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0006" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0007" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0008" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0009" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0010" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0011" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0012" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0013" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0014" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0015" x="0" y="72" width="369" height="67" frameX="-3" frameY="0" frameWidth="376" frameHeight="72"/>
+	<SubTexture name="mainmenu0016" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0017" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0018" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0019" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0020" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0021" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0022" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0023" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0024" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0025" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0026" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0027" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0028" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0029" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0030" x="0" y="0" width="376" height="72"/>
+	<SubTexture name="mainmenu0031" x="0" y="0" width="376" height="72"/>
 </TextureAtlas>
