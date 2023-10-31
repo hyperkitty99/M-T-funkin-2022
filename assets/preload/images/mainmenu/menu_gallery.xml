@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_gallery.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gallery0000" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0001" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0002" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0003" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0004" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0005" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0006" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0007" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0008" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0009" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0010" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0011" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0012" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0013" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0014" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0015" x="0" y="111" width="381" height="108" frameX="-2" frameY="0" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0016" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0017" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0018" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0019" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0020" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0021" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0022" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0023" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0024" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0025" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0026" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0027" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0028" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0029" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0030" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+	<SubTexture name="gallery0031" x="0" y="0" width="378" height="111" frameX="0" frameY="-4" frameWidth="383" frameHeight="115"/>
+</TextureAtlas>

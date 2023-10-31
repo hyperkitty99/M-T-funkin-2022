@@ -68,6 +68,7 @@ import hxcodec.VideoSprite;
 
 import flixel.addons.display.FlxRuntimeShader;
 import openfl.filters.ShaderFilter;
+import CustomTrail;
 
 using StringTools;
 
@@ -286,7 +287,7 @@ class PlayState extends MusicBeatState
 	var barrelDistortion = new BarrelDistortionShader();
 	var flowers:FlxEmitter;
 
-	var evilTrail:FlxTrail;
+	var evilTrail:CustomTrail;
 	var hands:FlxSprite;
 
 	override public function create()
@@ -2514,9 +2515,12 @@ class PlayState extends MusicBeatState
 	
 				switch(Std.parseInt(value1)) {
 					case 1:
-						evilTrail = new FlxTrail(dad, null, 4, 6, 0.3, 0.069);
+						evilTrail = new CustomTrail(dad, null, 4, 6, 0.3, 0.069, 200);
+						evilTrail.applyTween();
 						addBehindDad(evilTrail);
+
 					default:
+						evilTrail.destroyTween();
 						evilTrail.destroy();
 				}
 
