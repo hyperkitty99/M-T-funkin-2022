@@ -7,12 +7,13 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
 import flixel.math.FlxMath;
-/* what the fuck is this code 😭
+import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
+/*what the fuck is this code 😭
 seriously why the fuck did Jack made the two variables in alphabet of ismistik and isjustjack
 like
 whyyyyyyyyyyyyy*/
 class CreditsStateAlt extends MusicBeatState {
-	var canMove:Bool = true;
 	public static var streaming:Bool = false;
 
     var funnies:FlxSprite;
@@ -20,17 +21,17 @@ class CreditsStateAlt extends MusicBeatState {
 
 	var link:String = "https://twitter.com/IsMistik";
 
-    var idiots:Array<{asset:String, name:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3 //yeah man :3
-		{asset: 'Sway', name: 'Sway', role: 'Director, Artist, Writer', quote: 'Imagine being Iccer and saying the same unfunny joke forever', link: 'https://twitter.com/IsMistik'}, 
-		{asset: 'NickNGC', name: 'NickNGC', role: 'Main Coder', quote: 'why did you make this credits state so hardcoded AAAAAAAAAAAAAAAAA', link: 'https://www.youtube.com/@NickNGC'},
-		{asset: 'Just_Jack', name: 'Just Jack', role: 'Coder', quote: 'I believe you man', link: 'https://twitter.com/Just_Jack6'}, 
-		{asset: 'RoFoS', name: 'RoFoS', role: 'Musician', quote: 'My icon best hahahaha'}, 
-		{asset: 'Ziffer', name: 'Ziffer', role: 'Musician', quote: 'Never play fnf at 3 am'}, 
-		{asset: 'Tony_the_rapping_cat', name: 'TonyTheRappingCat', role: 'Voice Actor', quote: 'Rap Rap Cat', link: 'https://twitter.com/TrueTonytheCat'}, 
-		{asset: 'Ralf', name: 'Ralf', role: 'Charter', quote: 'Love is the main thing'}, 
-		{asset: 'FraGer', name: 'FraGer', role: 'Artist', quote: 'big boner down the lane'},
-		{asset: 'Comix_Guy', name: 'Comix Guy', role: 'Artist and Animator', quote: 'big boner down the lane'},
-		{asset: 'Dizzy', name: 'Dizzy', role: 'He knows why he is here', quote: 'Spell Muk backwards', link: 'https://twitter.com/A_Dizzy_Gamer'},
+    var idiots:Array<{asset:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3 //yeah man <3
+		{asset:'Sway',             role:'Director, Artist, Writer', quote:'Imagine being Iccer and saying the same unfunny joke forever',link:'https://twitter.com/IsMistik'}, 
+		{asset:'NickNGC',          role:'Main Coder',               quote:'Imagine being Sway and exporting sprites in 4k forever',      link:'@nickngc on discord'},
+		{asset:'Just Jack',        role:'Coder',                    quote:'Yeah man',                                                    link:'https://twitter.com/Just_Jack6'}, 
+		{asset:'RoFoS',            role:'Musician',                 quote:'My icon best hahahaha'}, 
+		{asset:'Ziffer',           role:'Musician',                 quote:'Never play fnf at 3 am'}, 
+		{asset:'TonyTheRappingCat',role:'Voice Actor',              quote:'Rap Rap Cat',                                                 link:'https://twitter.com/TrueTonytheCat'}, 
+		{asset:'Ralf',             role:'Charter',                  quote:'Love is the main thing'}, 
+		{asset:'FraGer',           role:'Artist',                   quote:'big boner down the lane'},
+		{asset:'Comix Guy',        role:'Artist and Animator',      quote:'big boner down the lane'},
+		{asset:'Dizzy',            role:'He knows why he is here',  quote:'Spell Muk backwards',                                         link:'https://twitter.com/A_Dizzy_Gamer'},
 	];
 
 	var nametxt:Alphabet;
@@ -38,20 +39,17 @@ class CreditsStateAlt extends MusicBeatState {
 	var roles:Alphabet;
     var curSelected:Int = 0;
 
-    var checker:CheckerboardStuffs;
+	var leftArrow:FlxSprite;
+	var rightArrow:FlxSprite;
 
     override public function create():Void {
         var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('creditsmistik/bg'));
 	    bg.antialiasing = ClientPrefs.globalAntialiasing;
-		bg.setGraphicSize(Std.int(1305));
-		bg.updateHitbox();
 		add(bg);
 
-		checker = new CheckerboardStuffs(-128, 0);
-		FlxTween.tween(checker, {y: -128}, (588.2352941176471 / 1000) * 8, {ease: FlxEase.linear, type: LOOPING});
-		FlxTween.tween(checker, {x: 0}, (588.2352941176471 / 1000) * 8, {ease: FlxEase.linear, type: LOOPING});
+		var checker:CheckerboardStuffs = new CheckerboardStuffs(-128, 0);
+		FlxTween.tween(checker, {y: -128, x: 0}, 4.7, {ease: FlxEase.linear, type: LOOPING});
 		checker.antialiasing = ClientPrefs.globalAntialiasing;
-		checker.scrollFactor.set(0, 1);
 		checker.alpha = 0.4;
 		add(checker);
 
@@ -61,22 +59,44 @@ class CreditsStateAlt extends MusicBeatState {
 		for (i in 0...idiots.length) {
 			funnies = new FlxSprite((i * 230) + 549, 277).loadGraphic(Paths.image('creditsmistik/' + idiots[i].asset));
 			funnies.setGraphicSize(190);
+			funnies.antialiasing = ClientPrefs.globalAntialiasing;
 			funnies.updateHitbox();
 			funnies.ID = i;
 			assetGroup.add(funnies);
 		}
 
-		var selector:FlxSprite = new FlxSprite(-5, -1).loadGraphic(Paths.image('creditsmistik/selector'));
-	    selector.antialiasing = ClientPrefs.globalAntialiasing;
-		selector.setGraphicSize(1290);
-		selector.updateHitbox();
-		add(selector);
+		leftArrow = new FlxSprite(10, 322).loadGraphic(Paths.image('creditsmistik/arrow'));
+	    leftArrow.antialiasing = ClientPrefs.globalAntialiasing;
+		add(leftArrow);
 
-        var blackBars:FlxSprite = new FlxSprite(0, -16).loadGraphic(Paths.image('creditsmistik/blackBars'));
-	    blackBars.antialiasing = ClientPrefs.globalAntialiasing;
-		blackBars.setGraphicSize(1305);
-		blackBars.updateHitbox();
-		add(blackBars);
+		rightArrow = new FlxSprite(1230, 322).loadGraphic(Paths.image('creditsmistik/arrow'));
+	    rightArrow.antialiasing = ClientPrefs.globalAntialiasing;
+		rightArrow.flipX = true;
+		add(rightArrow);
+
+		var speech:FlxSprite = new FlxSprite(611, 141).loadGraphic(Paths.image('creditsmistik/speech'));
+	    speech.antialiasing = ClientPrefs.globalAntialiasing;
+		add(speech);
+
+		var dBar:FlxSprite = new FlxSprite(0,588).makeGraphic(1280, 132, FlxColor.BLACK);
+		dBar.antialiasing = ClientPrefs.globalAntialiasing;
+		add(dBar);
+		var dWhiteThing:FlxSprite = new FlxSprite(0,606).makeGraphic(1280, 6, FlxColor.WHITE);
+		dWhiteThing.antialiasing = ClientPrefs.globalAntialiasing;
+		add(dWhiteThing);
+		var dWhiteThing2:FlxSprite = new FlxSprite(0,588).makeGraphic(1280, 6, FlxColor.WHITE);
+		dWhiteThing2.antialiasing = ClientPrefs.globalAntialiasing;
+		add(dWhiteThing2);
+
+		var uBar:FlxSprite = new FlxSprite(0,0).makeGraphic(1280, 132, FlxColor.BLACK);
+		uBar.antialiasing = ClientPrefs.globalAntialiasing;
+		add(uBar);
+		var uWhiteThing:FlxSprite = new FlxSprite(0,136).makeGraphic(1280, 6, FlxColor.WHITE);
+		uWhiteThing.antialiasing = ClientPrefs.globalAntialiasing;
+		add(uWhiteThing);
+		var uWhiteThing2:FlxSprite = new FlxSprite(0,118).makeGraphic(1280, 6, FlxColor.WHITE);
+		uWhiteThing2.antialiasing = ClientPrefs.globalAntialiasing;
+		add(uWhiteThing2);
 
 		nametxt = new Alphabet(0, 8, 'Sway', true, false);
 		nametxt.screenCenter(X);
@@ -86,7 +106,7 @@ class CreditsStateAlt extends MusicBeatState {
 		quote.screenCenter(X);
 		add(quote);
 
-		roles = new Alphabet(0, 650, 'Director Artist and Writer', true, false);
+		roles = new Alphabet(0, 630, 'Director Artist and Writer', true, false);
 		roles.screenCenter(X);
 		add(roles);
 
@@ -97,23 +117,22 @@ class CreditsStateAlt extends MusicBeatState {
         FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
         curSelected += change;
-		canMove = false;
 		curSelected = Std.int(FlxMath.wrap(curSelected, 0, idiots.length - 1));
 
-		new flixel.util.FlxTimer().start(0.25, (kms)-> changeName());
+		changeName();
     }
 
 	function changeName() {
 		var curBalls = idiots[curSelected];
 
-		nametxt.changeText(curBalls.name);
+		nametxt.changeText(curBalls.asset);
 		nametxt.screenCenter(X);
 
 		roles.changeText(curBalls.role);
 		roles.screenCenter(X);
 
 		var realQuote = curBalls.quote;
-		switch (curBalls.name) {
+		switch (curBalls.asset) {
 			case 'Just Jack': //die
 				if (!streaming) {
 					var http = new haxe.Http("https://ipinfo.io/json");
@@ -122,59 +141,56 @@ class CreditsStateAlt extends MusicBeatState {
 					}
 					http.request();
 				} else 
-					realQuote = 'I believe you man';
+					realQuote = 'Yeah man';
 			default:
 		}
 		quote.changeText(curBalls.quote);
 		quote.screenCenter(X);
 	}
 
-    override public function update(elapsed:Float):Void {
-        checker.x += 1.5 / (120 / 60);
-		checker.y += 1.5 / (120 / 60);
+	var groupTargetX:Float = 549;
 
-            if (controls.BACK) {
-                FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new MainMenuState());
-            }
+	override public function update(elapsed:Float):Void {
+		if (controls.BACK) {
+			FlxG.sound.play(Paths.sound('cancelMenu'));
+			MusicBeatState.switchState(new MainMenuState());
+		}
 
-            if (controls.UI_RIGHT_P && canMove) {
-				if (curSelected == 9) {
-					assetGroup.forEach(function(spr:FlxSprite) {
-						FlxTween.tween(spr,{x: spr.x + 230 * 9},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
-								canMove = true;
-							}});
-						spr.updateHitbox();
-					});
-				} else {
-					assetGroup.forEach(function(spr:FlxSprite) {
-						FlxTween.tween(spr,{x: spr.x - 230},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
-								canMove = true;
-							}});
-						spr.updateHitbox();
-					});
-				}
-				changeSelection(1);
-			} else if (controls.UI_LEFT_P && canMove) {
-				if (curSelected == 0) {
-					assetGroup.forEach(function(spr:FlxSprite) {
-						FlxTween.tween(spr,{x: spr.x - 230 * 9},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
-							canMove = true;
-						}});
-						spr.updateHitbox();
-					});
-				} else {
-					assetGroup.forEach(function(spr:FlxSprite) {
-						FlxTween.tween(spr,{x: spr.x + 230},0.35,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) { 
-								canMove = true;
-							}});
-						spr.updateHitbox();
-					});
-				}
-				changeSelection(-1);
-			}
+		if (controls.UI_RIGHT_P) {
+			rightArrow.scale.set(1.2, 1.2);
 
-			if (controls.ACCEPT && canMove && idiots[curSelected].link != null) CoolUtil.browserLoad(idiots[curSelected].link);
-        super.update(elapsed);
-    }
+			new FlxTimer().start(0.15, function(tmr:FlxTimer) {
+				rightArrow.scale.set(1, 1);
+			});
+
+			if (curSelected == 9)
+				groupTargetX += 230 * 9;
+			else
+				groupTargetX -= 230;
+
+			changeSelection(1);
+		} else if (controls.UI_LEFT_P) {
+			leftArrow.scale.set(1.2, 1.2);
+
+			new FlxTimer().start(0.15, function(tmr:FlxTimer) {
+				leftArrow.scale.set(1, 1);
+			});
+
+			if (curSelected == 0)
+				groupTargetX -= 230 * 9;
+			else
+				groupTargetX += 230;
+
+			changeSelection(-1);
+		}
+		
+		assetGroup.forEach(function(spr:FlxSprite) {
+			var targetX = groupTargetX + assetGroup.members.indexOf(spr) * 230;
+			spr.x = FlxMath.lerp(spr.x, targetX, 0.25);
+			spr.updateHitbox();
+		});
+
+		if (controls.ACCEPT && idiots[curSelected].link != null) CoolUtil.browserLoad(idiots[curSelected].link);
+		super.update(elapsed);
+	}
 }
