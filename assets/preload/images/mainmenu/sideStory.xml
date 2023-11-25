@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sideStory.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sideStory0000" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0001" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0002" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0003" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0004" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0005" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0006" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0007" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0008" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0009" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0010" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0011" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0012" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0013" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0014" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0015" x="581" y="0" width="577" height="555" frameX="0" frameY="-3" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0016" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0017" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0018" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0019" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0020" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0021" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0022" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0023" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0024" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0025" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0026" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0027" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0028" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0029" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0030" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+	<SubTexture name="sideStory0031" x="0" y="0" width="576" height="557" frameX="-2" frameY="0" frameWidth="578" frameHeight="558"/>
+</TextureAtlas>

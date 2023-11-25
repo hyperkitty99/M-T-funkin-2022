@@ -4,15 +4,12 @@ package;
 import Discord.DiscordClient;
 #end
 import flixel.FlxG;
-import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
-import flixel.text.FlxText;
-import flixel.math.FlxMath;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
@@ -30,8 +27,7 @@ import hxvlc.flixel.FlxVideoSprite;
 
 using StringTools;
 
-class MainMenuState extends MusicBeatState
-{//psych engine 0.6.2 :sob:
+class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -50,6 +46,7 @@ class MainMenuState extends MusicBeatState
 	var debugKeys:Array<FlxKey>;
 	var thekeys:Array<String> = ['THREE', 'SEVEN', 'TWO', 'SHIFT','SHIFT','SHIFT','SHIFT','SHIFT','SHIFT','SHIFT','SHIFT'];
 	var selector:FlxSprite;
+	var video:FlxVideoSprite;
 
 	override function create()
 	{
@@ -79,7 +76,8 @@ class MainMenuState extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-        var video:FlxVideoSprite = new FlxVideoSprite();
+        video = new FlxVideoSprite();
+		video.antialiasing = ClientPrefs.globalAntialiasing;
         add(video);
 		video.play('assets/videos/menuthing.mp4', 420);
 
@@ -200,7 +198,7 @@ class MainMenuState extends MusicBeatState
 								case 'play':
 									MusicBeatState.switchState(new StoryMenuStateMT());
 								case 'freeplay':
-									MusicBeatState.switchState(new FreeplayState());
+									MusicBeatState.switchState(new FreeplaySelectState());
 								case 'badges':
 									MusicBeatState.switchState(new AchievementsMenuState());
 								case 'credits':
