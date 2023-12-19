@@ -15,7 +15,6 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
 import sys.io.Process;
-import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 import flixel.util.FlxTimer;
@@ -32,15 +31,13 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
-	private var camAchievement:FlxCamera;
 
 	var optionShit:Array<String> = [
 		'play',
 		'freeplay',
-		'badges',
 		'gallery',
 		'credits',
-		'options',
+		'options'
 	];
 
 	var debugKeys:Array<FlxKey>;
@@ -48,8 +45,7 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 	var selector:FlxSprite;
 	var video:FlxVideoSprite;
 
-	override function create()
-	{
+	override function create() {
 		var process = new Process("tasklist", []);
 		var output = process.stdout.readAll().toString().toLowerCase();
 		var apps:Array<String> = ["obs32.exe", "obs64.exe", "obs.exe", "xsplit.core.exe", "livehime.exe", "pandatool.exe", "yymixer.exe", "douyutool.exe", "huomaotool.exe", 'streamlabs obs.exe', 'streamlabs obs32.exe', 'discord.exe', 'discordcanary.exe', 'discordptb.exe', 'skype.exe', 'zoom.exe']; 
@@ -64,11 +60,7 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 
 		camGame = new FlxCamera();
-		camAchievement = new FlxCamera();
-		camAchievement.bgColor.alpha = 0;
-
-		FlxG.cameras.reset(camGame);
-		FlxG.cameras.add(camAchievement);
+		FlxG.cameras.add(camGame);
 		FlxCamera.defaultCameras = [camGame];
 
 		transIn = FlxTransitionableState.defaultTransIn;
@@ -85,7 +77,7 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 		add(menuItems);
 
 		for (i in 0...optionShit.length) {
-			var menuItem:FlxSprite = new FlxSprite(25, (i * 65) + 245);
+			var menuItem:FlxSprite = new FlxSprite(25, (i * 65) + 275);
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i], 24);
 			menuItem.animation.play('idle');
@@ -118,12 +110,6 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 		barslol.screenCenter();
 		add(barslol);
 
-		var mainmenu:FlxSprite = new FlxSprite(407, 0);
-		mainmenu.frames = Paths.getSparrowAtlas('mainmenu/mainmenu');
-		mainmenu.animation.addByPrefix('mainmenu', 'mainmenu', 24, true);
-		mainmenu.animation.play('mainmenu');
-		add(mainmenu);
-
 		var projectmt:FlxSprite = new FlxSprite(390, 650);
 		projectmt.frames = Paths.getSparrowAtlas('mainmenu/projectmt');
 		projectmt.animation.addByPrefix('projectmt', 'projectmt', 24, true);
@@ -133,29 +119,8 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 
 		changeItem();
 
-		#if ACHIEVEMENTS_ALLOWED
-		Achievements.loadAchievements();
-		var leDate = Date.now();
-		if (leDate.getDay() == 5 && leDate.getHours() >= 18) {
-			var achieveID:Int = Achievements.getAchievementIndex('friday_night_play');
-			if(!Achievements.isAchievementUnlocked(Achievements.achievementsStuff[achieveID][2])) {
-				Achievements.achievementsMap.set(Achievements.achievementsStuff[achieveID][2], true);
-				giveAchievement();
-				ClientPrefs.saveSettings();
-			}
-		}
-		#end
-
 		super.create();
 	}
-
-	#if ACHIEVEMENTS_ALLOWED
-	function giveAchievement() {
-		add(new AchievementObject('friday_night_play', camAchievement));
-		FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
-		trace('Giving achievement "friday_night_play"');
-	}
-	#end
 
 	var selectedSomethin:Bool = false;
 
@@ -199,12 +164,10 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 									MusicBeatState.switchState(new StoryMenuStateMT());
 								case 'freeplay':
 									MusicBeatState.switchState(new FreeplaySelectState());
-								case 'badges':
-									MusicBeatState.switchState(new AchievementsMenuState());
 								case 'credits':
 									MusicBeatState.switchState(new CreditsStateAlt());
-									case 'gallery':
-									MusicBeatState.switchState(new CreditsState());
+								case 'gallery':
+									MusicBeatState.switchState(new GalleryState());
 								case 'options':
 									LoadingState.loadAndSwitchState(new options.OptionsState());
 							}

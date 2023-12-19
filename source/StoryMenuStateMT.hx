@@ -7,7 +7,6 @@ import flixel.FlxState;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.util.FlxTimer;
-import flixel.addons.display.FlxBackdrop;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -74,8 +73,6 @@ class StoryMenuStateMT extends MusicBeatState {
 		missText.setFormat(Paths.font("Phantomuff_Difficult_Font.ttf"), 32);
 		add(missText);
 
-		PlayState.storyWeek = 0;
-
         super.create();
     }
 
@@ -93,12 +90,10 @@ class StoryMenuStateMT extends MusicBeatState {
 		lerpScoreMisses = Math.floor(FlxMath.lerp(lerpScoreMisses, intendedMisses, CoolUtil.boundTo(elapsed * 30, 0, 1)));
 		if(Math.abs(intendedMisses - lerpScoreMisses) < 10) lerpScoreMisses = intendedMisses;
 
-		scoreText.text = ""+lerpScore;
-		missText.text = ""+lerpScoreMisses;
+		scoreText.text = "" + lerpScore;
+		missText.text = "" + lerpScoreMisses;
 
-		#if !switch
-		//intendedScore = Highscore.getWeekScore(curWeek, 2);
-		#end
+		intendedScore = Highscore.getWeekScore('week1', 2);
 
 		checker.x += 1.5 / (120 / 60);
 		checker.y += 1.5 / (120 / 60);
@@ -109,16 +104,10 @@ class StoryMenuStateMT extends MusicBeatState {
 				MusicBeatState.switchState(new MainMenuState());
 			}
 
-			if(FlxG.keys.justPressed.CONTROL) {
-				persistentUpdate = false;
-				openSubState(new GameplayChangersSubstate());
-			}
-			else if (controls.ACCEPT) {
+			if (controls.ACCEPT) {
 				FlxG.camera.flash(ClientPrefs.flashing ? FlxColor.WHITE : 0xFFFFFFFF, 1);
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('confirmMenu'));
-
-				//PlayState.storyPlaylist = weekData[curWeek];
 				PlayState.isStoryMode = true;
 
 				PlayState.storyDifficulty = 2;

@@ -1,7 +1,6 @@
 package;
 
 import flixel.graphics.frames.FlxAtlasFrames;
-import animateatlas.AtlasFrameMaker;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.tweens.FlxEase;

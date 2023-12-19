@@ -98,14 +98,9 @@ class FreeplaySelectState extends MusicBeatState {
 		if (FlxG.sound.music.volume < 0.8) FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 
 		if (!selectedSomethin) {
-			if (controls.UI_LEFT_P) {
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(-1);
-			}
-
-			if (controls.UI_RIGHT_P) {
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-				changeItem(1);
+			if ((controls.UI_LEFT_P || controls.UI_RIGHT_P)) {
+				changeItem(controls.UI_LEFT_P ? -1 : 1);
+				FlxG.sound.play(Paths.sound("scrollMenu"));
 			}
 
 			if (controls.BACK) {
