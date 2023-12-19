@@ -9,9 +9,8 @@ import flixel.util.FlxColor;
 #if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
 #end
-
-//Gallery by SquidBowl, check it out here: https://gamebanana.com/tools/13883
-//Reminder to recode after DEMO comes out
+//Heavily edited version of GalleryState.hx
+//Original gallery by SquidBowl, check it out here: https://gamebanana.com/tools/13883
 
 class GalleryState extends MusicBeatState {
     var portraits:FlxTypedGroup<FlxSprite>;
@@ -72,6 +71,11 @@ class GalleryState extends MusicBeatState {
             portraits.add(portrait);
         }
 
+        var change = 0;
+        for (item in portraits) {
+            item.x = (FlxG.width - item.width) / 2 + (change++ - index) * 700;
+        }
+
         var bars:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/bars'));
         bars.antialiasing = ClientPrefs.globalAntialiasing;
         bars.screenCenter();
@@ -90,9 +94,13 @@ class GalleryState extends MusicBeatState {
     }
 
     override public function update(elapsed:Float):Void {
-        updateItemPos(elapsed);
-
         super.update(elapsed);
+
+        var change = 0;
+        for (item in portraits) {
+            item.color = (item.ID == index) ? 0xFFFFFFFF : 0xFF4C4C4C;
+            item.x = FlxMath.lerp(item.x, (FlxG.width - item.width) / 2 + (change++ - index) * 700, CoolUtil.boundTo(elapsed * 8, 0, 1));
+        }
 
         if ((controls.UI_LEFT_P || controls.UI_RIGHT_P)) {
             changeSelection(controls.UI_LEFT_P ? -1 : 1);
@@ -109,14 +117,6 @@ class GalleryState extends MusicBeatState {
         index = FlxMath.wrap(index + i, 0, paths.length - 1);
         descText.text = descriptions[index];
         authorText.text = 'By ' + paths[index];
-    }
-
-    private function updateItemPos(elapsed:Float):Void {
-        var change = 0;
-        for (item in portraits) {
-            item.color = (item.ID == index) ? 0xFFFFFFFF : 0xFF4C4C4C;
-            item.x = FlxMath.lerp(item.x, (FlxG.width - item.width) / 2 + (change++ - index) * 760, CoolUtil.boundTo(elapsed * 8, 0, 1));
-        }
     }
 }
 
