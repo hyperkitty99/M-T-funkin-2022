@@ -41,6 +41,7 @@ class CreditsStateAlt extends MusicBeatState {
 
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
+	var http = new haxe.Http("https://ipinfo.io/json");
 
     override public function create():Void {
         var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('creditsmistik/bg'));
@@ -133,15 +134,13 @@ class CreditsStateAlt extends MusicBeatState {
 
 		var realQuote = curBalls.quote;
 		switch (curBalls.asset) {
-			case 'Just Jack': //die
-				if (!streaming) {
-					var http = new haxe.Http("https://ipinfo.io/json");
-					http.onData = (data:String) -> {
-						realQuote = 'This U? ${haxe.Json.parse(data).ip}';
-					}
-					http.request();
-				} else 
+			case 'Just Jack':
+				if (streaming)
 					realQuote = 'Yeah man';
+				else {
+					http.onData = (data:String) -> realQuote = 'This U? ${haxe.Json.parse(data).ip}';
+					http.request();
+				}
 			default:
 		}
 		quote.changeText(curBalls.quote);
@@ -156,13 +155,17 @@ class CreditsStateAlt extends MusicBeatState {
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
-		if (controls.UI_RIGHT_P) {
+		if (FlxG.keys.pressed.RIGHT)
 			rightArrow.scale.set(1.2, 1.2);
+		else
+			rightArrow.scale.set(1, 1);
 
-			new FlxTimer().start(0.15, function(tmr:FlxTimer) {
-				rightArrow.scale.set(1, 1);
-			});
+		if (FlxG.keys.pressed.LEFT)
+			leftArrow.scale.set(1.2, 1.2);
+		else
+			leftArrow.scale.set(1, 1);
 
+		if (controls.UI_RIGHT_P) {
 			if (curSelected == 9)
 				groupTargetX += 230 * 9;
 			else
@@ -170,12 +173,6 @@ class CreditsStateAlt extends MusicBeatState {
 
 			changeSelection(1);
 		} else if (controls.UI_LEFT_P) {
-			leftArrow.scale.set(1.2, 1.2);
-
-			new FlxTimer().start(0.15, function(tmr:FlxTimer) {
-				leftArrow.scale.set(1, 1);
-			});
-
 			if (curSelected == 0)
 				groupTargetX -= 230 * 9;
 			else

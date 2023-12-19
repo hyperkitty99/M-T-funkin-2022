@@ -82,8 +82,7 @@ class StoryMenuStateMT extends MusicBeatState {
 	var lerpScoreMisses:Int = 0;
 	var intendedMisses:Int = 0;
 
-    override public function update(elapsed:Float):Void
-    {
+    override public function update(elapsed:Float):Void {
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, CoolUtil.boundTo(elapsed * 30, 0, 1)));
 		if(Math.abs(intendedScore - lerpScore) < 10) lerpScore = intendedScore;
 
@@ -94,9 +93,6 @@ class StoryMenuStateMT extends MusicBeatState {
 		missText.text = "" + lerpScoreMisses;
 
 		intendedScore = Highscore.getWeekScore('week1', 2);
-
-		checker.x += 1.5 / (120 / 60);
-		checker.y += 1.5 / (120 / 60);
 
 		if (!selectedSomethin) {
 			if (controls.BACK) {

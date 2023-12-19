@@ -3662,7 +3662,7 @@ class PlayState extends MusicBeatState
 				add(blackShit);
 
 				var jumpScare = new FlxSprite();
-				jumpScare.frames = Paths.getSparrowAtlas('372_Jumpscare_Assets', 'shared');
+				jumpScare.frames = Paths.getSparrowAtlas('372_Jumpscare_Assets');
 				jumpScare.animation.addByPrefix('hitStatic', '372 scream', 24, false);
 				jumpScare.animation.play('hitStatic', true);
 				jumpScare.screenCenter();

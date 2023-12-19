@@ -19,6 +19,7 @@ class GalleryState extends MusicBeatState {
     var index:Int = 0;
     var descText:FlxText;
     var authorText:FlxText;
+    var daymn:FlxSprite;
 
     override public function create():Void {
         var video:FlxVideoSprite = new FlxVideoSprite();
@@ -29,7 +30,6 @@ class GalleryState extends MusicBeatState {
         var portraitArray:Array<Portrait> = [
             {path:'Amalgamat',       desc:'placeholder'}, 
             {path:'Cloud Boy',       desc:'placeholder'},
-            {path:'Cloud Boy again', desc:'placeholder'}, 
             {path:'Darkus',          desc:'placeholder'}, 
             {path:'Dendy',           desc:'placeholder'},
             {path:'Dizzer',          desc:'placeholder'},
@@ -37,7 +37,6 @@ class GalleryState extends MusicBeatState {
             {path:'Dru',             desc:'placeholder'},
             {path:'DuddlyKid',       desc:'placeholder'},
             {path:'Egich',           desc:'placeholder'},
-            {path:'Egich again',     desc:'placeholder'},
             {path:'GKA',             desc:'placeholder'},
             {path:'Grey',            desc:'placeholder'},
             {path:'Iccer',           desc:'placeholder'},
@@ -48,8 +47,7 @@ class GalleryState extends MusicBeatState {
             {path:'NickNGC',         desc:'Scrapped Mistik design'},
 			{path:'Shertedten',      desc:'placeholder'},
 			{path:'Vahidich',        desc:'Mistik Redesign'},
-			{path:'Villweewee',      desc:'placeholder'},
-			{path:'ZTyagotenia',     desc:'placeholder'},
+			{path:'Villweewee',      desc:'hot'}
         ];
 
         paths = [];
@@ -72,13 +70,11 @@ class GalleryState extends MusicBeatState {
         }
 
         var change = 0;
-        for (item in portraits) {
+        for (item in portraits)
             item.x = (FlxG.width - item.width) / 2 + (change++ - index) * 700;
-        }
 
         var bars:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/bars'));
         bars.antialiasing = ClientPrefs.globalAntialiasing;
-        bars.screenCenter();
         add(bars);
 
         descText = new FlxText(25, 666, FlxG.width - 100, descriptions[index]).setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, LEFT);
@@ -87,6 +83,11 @@ class GalleryState extends MusicBeatState {
         authorText = new FlxText(50, 15, FlxG.width - 100, 'By ' + paths[index]).setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
         authorText.screenCenter(X);
         add(authorText);
+
+        daymn = new FlxSprite(descText.x, 655).loadGraphic(Paths.image('daymn'));
+        daymn.antialiasing = ClientPrefs.globalAntialiasing;
+        daymn.visible = false;
+        add(daymn);
 
         changeSelection();
     
@@ -117,6 +118,10 @@ class GalleryState extends MusicBeatState {
         index = FlxMath.wrap(index + i, 0, paths.length - 1);
         descText.text = descriptions[index];
         authorText.text = 'By ' + paths[index];
+
+        daymn.visible = (descriptions[index] == 'hot');
+        daymn.offset.x = -(descText.textField.textWidth * descText.scale.x);
+        daymn.offset.x -= 15;
     }
 }
 
