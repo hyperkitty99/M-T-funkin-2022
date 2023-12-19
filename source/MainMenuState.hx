@@ -169,7 +169,7 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 								case 'gallery':
 									MusicBeatState.switchState(new GalleryState());
 								case 'options':
-									LoadingState.loadAndSwitchState(new options.OptionsState());
+									MusicBeatState.switchState(new options.OptionsState());
 							}
 						});
 					}
@@ -187,7 +187,7 @@ class MainMenuState extends MusicBeatState {//psych engine 0.6.2 :sob:
 		if (thekeys[0] == 'SHIFT') {
 			new FlxTimer().start(1, function(tmr:FlxTimer) {
 				PlayState.SONG = Song.loadFromJson("372-372", "372");
-				LoadingState.loadAndSwitchState(new PlayState(), true);
+				MusicBeatState.switchState(new PlayState());
 			});
 		}
 

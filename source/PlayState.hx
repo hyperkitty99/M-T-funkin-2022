@@ -3067,11 +3067,11 @@ class PlayState extends MusicBeatState
 					if(winterHorrorlandNext) {
 						new FlxTimer().start(1.5, function(tmr:FlxTimer) {
 							cancelMusicFadeTween();
-							LoadingState.loadAndSwitchState(new PlayState());
+							MusicBeatState.switchState(new PlayState());
 						});
 					} else {
 						cancelMusicFadeTween();
-						LoadingState.loadAndSwitchState(new PlayState());
+						MusicBeatState.switchState(new PlayState());
 					}
 				}
 			}
