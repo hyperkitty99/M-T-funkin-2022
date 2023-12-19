@@ -73,20 +73,6 @@ class FreeplaySelectState extends MusicBeatState {
 		barslol.screenCenter();
 		add(barslol);
 
-		var prefreeplay:FlxSprite = new FlxSprite(0, 0);
-		prefreeplay.frames = Paths.getSparrowAtlas('mainmenu/prefreeplay');
-		prefreeplay.animation.addByPrefix('prefreeplay', 'preFreeplay', 24, true);
-		prefreeplay.animation.play('prefreeplay');
-		prefreeplay.screenCenter(X);
-		add(prefreeplay);
-
-		var projectmt:FlxSprite = new FlxSprite(0, 650);
-		projectmt.frames = Paths.getSparrowAtlas('mainmenu/projectmt');
-		projectmt.animation.addByPrefix('projectmt', 'projectmt', 24, true);
-		projectmt.animation.play('projectmt');
-		projectmt.screenCenter(X);
-		add(projectmt);
-
 		changeItem();
 
 		super.create();

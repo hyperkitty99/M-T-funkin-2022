@@ -34,18 +34,37 @@ class VisualsUISubState extends BaseOptionsMenu
 		title = 'Visuals and UI';
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
 
+		var option:Option = new Option('Anti-Aliasing',
+			'If unchecked, disables anti-aliasing, increases performance\nat the cost of sharper visuals.',
+			'globalAntialiasing',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Shaders',
+	    	'If unchecked, disables shaders.\nIt\'s used for some visual effects, and also CPU intensive for weaker PCs. Disable if the game crashes.',
+	    	'shaders',
+	    	'bool',
+		    true);
+		addOption(option);
+
+		var option:Option = new Option('Framerate',
+			"Pretty self explanatory, isn't it?",
+			'framerate',
+			'int',
+			60);
+		addOption(option);
+
+		option.minValue = 60;
+		option.maxValue = 240;
+		option.displayFormat = '%v FPS';
+		option.onChange = onChangeFramerate;
+
 		var option:Option = new Option('Note Splashes',
 			"If unchecked, hitting \"Sick!\" notes won't show particles.",
 			'noteSplashes',
 			'bool',
 			true);
-		addOption(option);
-
-		var option:Option = new Option('Hide HUD',
-			'If checked, hides most HUD elements.',
-			'hideHud',
-			'bool',
-			false);
 		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',
@@ -63,33 +82,6 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Camera Zooms',
-			"If unchecked, the camera won't zoom in on a beat hit.",
-			'camZooms',
-			'bool',
-			true);
-		addOption(option);
-
-		var option:Option = new Option('Score Text Zoom on Hit',
-			"If unchecked, disables the Score text zooming\neverytime you hit a note.",
-			'scoreZoom',
-			'bool',
-			true);
-		addOption(option);
-
-		var option:Option = new Option('Health Bar Transparency',
-			'How much transparent should the health bar and icons be.',
-			'healthBarAlpha',
-			'percent',
-			1);
-		option.scrollSpeed = 1.6;
-		option.minValue = 0.0;
-		option.maxValue = 1;
-		option.changeValue = 0.1;
-		option.decimals = 1;
-		addOption(option);
-		
-		#if !mobile
 		var option:Option = new Option('FPS Counter',
 			'If unchecked, hides FPS Counter.',
 			'showFPS',
@@ -97,7 +89,6 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 		option.onChange = onChangeFPSCounter;
-		#end
 		
 		var option:Option = new Option('Pause Screen Song:',
 			"What song do you prefer for the Pause Screen?",
@@ -107,15 +98,6 @@ class VisualsUISubState extends BaseOptionsMenu
 			['None', 'Breakfast', 'Tea Time']);
 		addOption(option);
 		option.onChange = onChangePauseMusic;
-		
-		#if CHECK_FOR_UPDATES
-		var option:Option = new Option('Check for Updates',
-			'On Release builds, turn this on to check for updates when you start the game.',
-			'checkForUpdates',
-			'bool',
-			true);
-		addOption(option);
-		#end
 
 		super();
 	}
@@ -137,11 +119,16 @@ class VisualsUISubState extends BaseOptionsMenu
 		super.destroy();
 	}
 
-	#if !mobile
 	function onChangeFPSCounter()
-	{
-		if(Main.fpsVar != null)
-			Main.fpsVar.visible = ClientPrefs.showFPS;
+		if(Main.fpsVar != null) Main.fpsVar.visible = ClientPrefs.showFPS;
+
+	function onChangeFramerate() {
+		if(ClientPrefs.framerate > FlxG.drawFramerate) {
+			FlxG.updateFramerate = ClientPrefs.framerate;
+			FlxG.drawFramerate = ClientPrefs.framerate;
+		} else {
+			FlxG.drawFramerate = ClientPrefs.framerate;
+			FlxG.updateFramerate = ClientPrefs.framerate;
+		}
 	}
-	#end
 }

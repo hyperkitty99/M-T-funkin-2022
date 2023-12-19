@@ -9,10 +9,7 @@ import flixel.tweens.FlxEase;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-/*what the fuck is this code 😭
-seriously why the fuck did Jack made the two variables in alphabet of ismistik and isjustjack
-like
-whyyyyyyyyyyyyy*/
+
 class CreditsStateAlt extends MusicBeatState {
 	public static var streaming:Bool = false;
 
@@ -21,7 +18,7 @@ class CreditsStateAlt extends MusicBeatState {
 
 	var link:String = "https://twitter.com/IsMistik";
 
-    var idiots:Array<{asset:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3 //yeah man <3
+    var devs:Array<{asset:String, role:String, ?quote:String, ?link:String}> = [ //anonymous structures :3 //yeah man <3
 		{asset:'Sway',             role:'Director, Artist, Writer', quote:'Imagine being Iccer and saying the same unfunny joke forever',link:'https://twitter.com/IsMistik'}, 
 		{asset:'NickNGC',          role:'Main Coder',               quote:'Imagine being Sway and exporting sprites in 4k forever',      link:'@nickngc on discord'},
 		{asset:'Just Jack',        role:'Coder',                    quote:'Yeah man',                                                    link:'https://twitter.com/Just_Jack6'}, 
@@ -57,8 +54,8 @@ class CreditsStateAlt extends MusicBeatState {
 		assetGroup = new FlxTypedGroup<FlxSprite>();
 		add(assetGroup);
 
-		for (i in 0...idiots.length) {
-			funnies = new FlxSprite((i * 230) + 549, 277).loadGraphic(Paths.image('creditsmistik/' + idiots[i].asset));
+		for (i in 0...devs.length) {
+			funnies = new FlxSprite((i * 230) + 549, 277).loadGraphic(Paths.image('creditsmistik/' + devs[i].asset));
 			funnies.setGraphicSize(190);
 			funnies.antialiasing = ClientPrefs.globalAntialiasing;
 			funnies.updateHitbox();
@@ -118,13 +115,13 @@ class CreditsStateAlt extends MusicBeatState {
         FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
         curSelected += change;
-		curSelected = Std.int(FlxMath.wrap(curSelected, 0, idiots.length - 1));
+		curSelected = Std.int(FlxMath.wrap(curSelected, 0, devs.length - 1));
 
 		changeName();
     }
 
 	function changeName() {
-		var curBalls = idiots[curSelected];
+		var curBalls = devs[curSelected];
 
 		nametxt.changeText(curBalls.asset);
 		nametxt.screenCenter(X);
@@ -187,7 +184,7 @@ class CreditsStateAlt extends MusicBeatState {
 			spr.updateHitbox();
 		});
 
-		if (controls.ACCEPT && idiots[curSelected].link != null) CoolUtil.browserLoad(idiots[curSelected].link);
+		if (controls.ACCEPT && devs[curSelected].link != null) CoolUtil.browserLoad(devs[curSelected].link);
 		super.update(elapsed);
 	}
 }
