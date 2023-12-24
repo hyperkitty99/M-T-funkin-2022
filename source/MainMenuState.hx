@@ -20,9 +20,7 @@ import flixel.input.keyboard.FlxKey;
 import flixel.util.FlxTimer;
 import flixel.addons.display.FlxBackdrop;
 import flixel.FlxState;
-#if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
-#end
 
 using StringTools;
 

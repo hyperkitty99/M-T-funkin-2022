@@ -12,9 +12,7 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.FlxCamera;
 import flixel.util.FlxColor;
-#if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
-#end
 
 using StringTools;
 

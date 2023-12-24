@@ -214,8 +214,6 @@ class PlayState extends MusicBeatState
 
 	var heyTimer:Float;
 
-	var hitStatic:FlxSprite;
-
 	var foregroundSprites:FlxTypedGroup<BGSprite>;
 
 	public var songScore:Int = 0;
@@ -290,8 +288,6 @@ class PlayState extends MusicBeatState
 	override public function create()
 	{
 		Paths.clearStoredMemory();
-
-		Paths.returnGraphic('hitStatic');
 		// CoolUtil.precacheSound('Scream');
 
 		// for lua
@@ -2968,11 +2964,9 @@ class PlayState extends MusicBeatState
 			songEnded = true;
 			if (SONG.validScore)
 			{
-				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
-				#end
 			}
 
 			if(SONG.song.toLowerCase() == '372' && !FlxG.save.data.beatenMid) {

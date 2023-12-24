@@ -17,7 +17,7 @@
 	<SubTexture name="arrow0012" x="0" y="0" width="64" height="65"/>
 	<SubTexture name="arrow0013" x="0" y="0" width="64" height="65"/>
 	<SubTexture name="arrow0014" x="0" y="0" width="64" height="65"/>
-	<SubTexture name="arrow0015" x="0" y="65" width="64" height="62" frameX="0" frameY="-1" frameWidth="64" frameHeight="65"/>
+	<SubTexture name="arrow0015" x="0" y="0" width="64" height="65"/>
 	<SubTexture name="arrow0016" x="0" y="65" width="64" height="62" frameX="0" frameY="-1" frameWidth="64" frameHeight="65"/>
 	<SubTexture name="arrow0017" x="0" y="65" width="64" height="62" frameX="0" frameY="-1" frameWidth="64" frameHeight="65"/>
 	<SubTexture name="arrow0018" x="0" y="65" width="64" height="62" frameX="0" frameY="-1" frameWidth="64" frameHeight="65"/>

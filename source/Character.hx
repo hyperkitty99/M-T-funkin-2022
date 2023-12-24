@@ -90,7 +90,7 @@ class Character extends FlxSprite
 		curCharacter = character;
 		this.isPlayer = isPlayer;
 		antialiasing = ClientPrefs.globalAntialiasing;
-		var library:String = null;
+
 		var tex:FlxAtlasFrames;
 		switch (curCharacter)
 		{

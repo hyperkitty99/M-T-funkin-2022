@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arrowLeft.png">
+	<SubTexture name="arrowLeft0000" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0001" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0002" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0003" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0004" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0005" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0006" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0007" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0008" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0009" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0010" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0011" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0012" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0013" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0014" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0015" x="56" y="0" width="54" height="97" frameX="-2" frameY="0" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0016" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0017" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0018" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0019" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0020" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0021" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0022" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0023" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0024" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0025" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0026" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0027" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0028" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0029" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0030" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+	<SubTexture name="arrowLeft0031" x="0" y="0" width="56" height="96" frameX="0" frameY="-3" frameWidth="56" frameHeight="99"/>
+</TextureAtlas>

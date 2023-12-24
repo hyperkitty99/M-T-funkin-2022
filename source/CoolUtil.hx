@@ -3,7 +3,6 @@ package;
 import flixel.FlxG;
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
-import lime.utils.AssetLibrary;
 import lime.utils.AssetManifest;
 import flixel.sound.FlxSound;
 #if sys
@@ -108,12 +107,12 @@ class CoolUtil {
 		return dumbArray;
 	}
 
-	public static function precacheSound(sound:String, ?library:String = null):Void {
-		Paths.sound(sound, library);
+	public static function precacheSound(sound:String):Void {
+		Paths.sound(sound);
 	}
 
-	public static function precacheMusic(sound:String, ?library:String = null):Void {
-		Paths.music(sound, library);
+	public static function precacheMusic(sound:String):Void {
+		Paths.music(sound);
 	}
 
 	public static function browserLoad(site:String) {

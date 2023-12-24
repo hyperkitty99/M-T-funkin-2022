@@ -17,7 +17,7 @@
 	<SubTexture name="projectmt0012" x="0" y="0" width="420" height="71"/>
 	<SubTexture name="projectmt0013" x="0" y="0" width="420" height="71"/>
 	<SubTexture name="projectmt0014" x="0" y="0" width="420" height="71"/>
-	<SubTexture name="projectmt0015" x="0" y="71" width="418" height="68" frameX="0" frameY="-2" frameWidth="420" frameHeight="71"/>
+	<SubTexture name="projectmt0015" x="0" y="0" width="420" height="71"/>
 	<SubTexture name="projectmt0016" x="0" y="71" width="418" height="68" frameX="0" frameY="-2" frameWidth="420" frameHeight="71"/>
 	<SubTexture name="projectmt0017" x="0" y="71" width="418" height="68" frameX="0" frameY="-2" frameWidth="420" frameHeight="71"/>
 	<SubTexture name="projectmt0018" x="0" y="71" width="418" height="68" frameX="0" frameY="-2" frameWidth="420" frameHeight="71"/>

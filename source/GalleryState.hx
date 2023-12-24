@@ -6,9 +6,7 @@ import flixel.text.FlxText;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
-#if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
-#end
 //Heavily edited version of GalleryState.hx
 //Original gallery by SquidBowl, check it out here: https://gamebanana.com/tools/13883
 
@@ -76,6 +74,11 @@ class GalleryState extends MusicBeatState {
         var bars:FlxSprite = new FlxSprite().loadGraphic(Paths.image('mainmenu/bars'));
         bars.antialiasing = ClientPrefs.globalAntialiasing;
         add(bars);
+
+        var descBox:FlxSprite = new FlxSprite(0, 200).loadGraphic(Paths.image('mainmenu/descBox'));
+        descBox.screenCenter(X);
+        descBox.antialiasing = ClientPrefs.globalAntialiasing;
+        add(descBox);
 
         descText = new FlxText(25, 666, FlxG.width - 100, descriptions[index]).setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, LEFT);
         add(descText);

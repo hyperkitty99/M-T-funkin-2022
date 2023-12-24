@@ -96,7 +96,7 @@ class FPS extends TextField
 				textColor = 0xFFFF0000;
 			}
 
-			#if (gl_stats && !disable_cffi && (!html5 || !canvas))
+			#if (gl_stats && !disable_cffi && (!canvas))
 			text += "\ntotalDC: " + Context3DStats.totalDrawCalls();
 			text += "\nstageDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE);
 			text += "\nstage3DDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE3D);
