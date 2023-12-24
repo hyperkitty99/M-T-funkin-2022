@@ -137,11 +137,6 @@ class Paths
 		return getPath('data/$key.txt', TEXT);
 	}
 
-	inline static public function xml(key:String)
-	{
-		return getPath('data/$key.xml', TEXT);
-	}
-
 	inline static public function json(key:String)
 	{
 		return getPath('data/$key.json', TEXT);
