@@ -38,12 +38,15 @@ class GalleryState extends MusicBeatState {
             {path:'GKA',             desc:'placeholder'},
             {path:'Grey',            desc:'placeholder'},
             {path:'Iccer',           desc:'placeholder'},
+            {path:'Juztexd',         desc:'placeholder'},
             {path:'Kashinov',        desc:'placeholder'},
 			{path:'Kersive',         desc:'placeholder'},
 			{path:'MagMan',          desc:'placeholder'},
 			{path:'Manul',           desc:'placeholder'},
+            {path:'Matr4Ss',         desc:'placeholder'},
             {path:'NickNGC',         desc:'Scrapped Mistik design'},
 			{path:'Shertedten',      desc:'placeholder'},
+            {path:'Tomsk',           desc:'placeholder'},
 			{path:'Vahidich',        desc:'Mistik Redesign'},
 			{path:'Villweewee',      desc:'hot'}
         ];
@@ -75,7 +78,7 @@ class GalleryState extends MusicBeatState {
         bars.antialiasing = ClientPrefs.globalAntialiasing;
         add(bars);
 
-        var descBox:FlxSprite = new FlxSprite(0, 200).loadGraphic(Paths.image('mainmenu/descBox'));
+        var descBox:FlxSprite = new FlxSprite(0, 70).loadGraphic(Paths.image('mainmenu/descBox'));
         descBox.screenCenter(X);
         descBox.antialiasing = ClientPrefs.globalAntialiasing;
         add(descBox);
@@ -83,7 +86,7 @@ class GalleryState extends MusicBeatState {
         descText = new FlxText(25, 666, FlxG.width - 100, descriptions[index]).setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, LEFT);
         add(descText);
 
-        authorText = new FlxText(50, 15, FlxG.width - 100, 'By ' + paths[index]).setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
+        authorText = new FlxText(50, 74, FlxG.width - 100, 'By ' + paths[index]).setFormat(Paths.font("vcr.ttf"), 26, FlxColor.WHITE, CENTER);
         authorText.screenCenter(X);
         add(authorText);
 
@@ -91,6 +94,13 @@ class GalleryState extends MusicBeatState {
         daymn.antialiasing = ClientPrefs.globalAntialiasing;
         daymn.visible = false;
         add(daymn);
+
+        var prefreeplay:FlxSprite = new FlxSprite(0, 0);
+		prefreeplay.frames = Paths.getSparrowAtlas('mainmenu/gallery');
+		prefreeplay.animation.addByPrefix('gallery', 'gallery', 24, true);
+		prefreeplay.animation.play('gallery');
+		prefreeplay.screenCenter(X);
+		add(prefreeplay);
 
         changeSelection();
     
